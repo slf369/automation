@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false"  preserve-order="true">
+	<test name="api_test">
+		<classes>
+			<class name="com.demo.testcase.TemplateSuiteCase"/>
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<usedefaultlisteners name="false" />
+</suite> <!-- Suite -->
